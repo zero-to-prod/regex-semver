@@ -1,0 +1,39 @@
+{
+  "type": "library",
+  "name": "zero-to-prod/regex-semver",
+  "description": "A regular expression to check a SemVer string.",
+  "keywords": [
+    "semver regex",
+    "zero-to-prod",
+    "rege-semverx"
+  ],
+  "homepage": "https://github.com/zero-to-prod/regex-semver",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "David Smith",
+      "email": "dave0016@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=7.1"
+  },
+  "autoload": {
+    "psr-4": {
+      "Zerotoprod\\RegexSemver\\": "src/"
+    }
+  },
+  "autoload-dev": {
+    "psr-4": {
+      "Tests\\": "tests/"
+    }
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*"
+  },
+  "suggest": {
+    "zero-to-prod/transformable": "Transform a class into different types.",
+    "zero-to-prod/data-model-factory": "Factories for a DataModel.",
+    "zero-to-prod/data-model": "Type-safe DTOs"
+  }
+}
