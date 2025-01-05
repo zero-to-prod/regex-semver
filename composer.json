@@ -8,6 +8,13 @@
     "rege-semverx"
   ],
   "homepage": "https://github.com/zero-to-prod/regex-semver",
+  "support": {
+    "email": "dave0016@gmail.com",
+    "issues": "https://github.com/zero-to-prod/regex-semver/issues",
+    "source": "https://github.com/zero-to-prod/data-model",
+    "docs": "https://zero-to-prod.github.io/regex-semver/",
+    "security": "https://github.com/zero-to-prod/regex-semver/blob/main/SECURITY.md"
+  },
   "license": "MIT",
   "readme": "./README.md",
   "authors": [
