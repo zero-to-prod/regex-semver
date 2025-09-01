@@ -17,6 +17,8 @@
 - [Introduction](#introduction)
 - [Requirements](#requirements)
 - [Installation](#installation)
+- [Documentation Publishing](#documentation-publishing)
+  - [Automatic Documentation Publishing](#automatic-documentation-publishing)
 - [Usage](#usage)
 - [Local Development](./LOCAL_DEVELOPMENT.md)
 - [Contributing](#contributing)
@@ -35,6 +37,39 @@ Install `Zerotoprod\RegexSemver` via [Composer](https://getcomposer.org/):
 
 ```bash
 composer require zero-to-prod/regex-semver
+```
+
+## Documentation Publishing
+
+You can publish this README to your local documentation directory.
+
+This can be useful for providing documentation for AI agents.
+
+This can be done using the included script:
+
+```bash
+# Publish to default location (./docs/zero-to-prod/regex-semver)
+vendor/bin/zero-to-prod-regex-semver
+
+# Publish to custom directory
+vendor/bin/zero-to-prod-regex-semver /path/to/your/docs
+```
+
+### Automatic Documentation Publishing
+
+You can automatically publish documentation by adding the following to your `composer.json`:
+
+```json
+{
+    "scripts": {
+        "post-install-cmd": [
+            "zero-to-prod-regex-semver"
+        ],
+        "post-update-cmd": [
+            "zero-to-prod-regex-semver"
+        ]
+    }
+}
 ```
 
 ## Usage
