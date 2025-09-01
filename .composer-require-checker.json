@@ -18,7 +18,14 @@
     ],
     "php-core-extensions": [
         "Core",
+        "date",
+        "pcre",
+        "Phar",
+        "Reflection",
+        "SPL",
         "standard"
     ],
-    "scan-files": []
+    "scan-files": [
+        "src/**/*.php"
+    ]
 }
